@@ -1,8 +1,7 @@
-package com.example.alvin.chainzmusic;
+package com.example.alvin.chainzmusic.views;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.net.sip.SipSession;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -17,6 +16,10 @@ import com.android.volley.Response;
 import com.android.volley.Response.ErrorListener;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
+import com.example.alvin.chainzmusic.Constants;
+import com.example.alvin.chainzmusic.R;
+import com.example.alvin.chainzmusic.RequestHandler;
+import com.example.alvin.chainzmusic.ShareprefManager;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -44,7 +47,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
         if (ShareprefManager.getInstance(this).isLoggedIn()){
             finish();
-            startActivity(new Intent(this,profileActivity.class));
+            startActivity(new Intent(this, profileActivity.class));
             return;
         }
 

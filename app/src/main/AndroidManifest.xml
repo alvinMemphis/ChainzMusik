@@ -16,7 +16,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".views.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -32,11 +32,11 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".SignupActivity">
+        <activity android:name=".views.SignupActivity">
 
         </activity>
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".profileActivity" />
+        <activity android:name=".views.LoginActivity" />
+        <activity android:name=".views.profileActivity" />
         <activity android:name=".GpsTrackActivity" />
     </application>
 

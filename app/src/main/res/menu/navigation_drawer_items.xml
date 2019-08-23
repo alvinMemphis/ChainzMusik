@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_you">
+        <item android:id="@+id/nav_profile"
+            android:title="profile"
+            android:icon="@drawable/ic_action_profile"
+            android:layout_centerVertical="true"></item>
+        <item android:id="@+id/nav_settings"
+            android:title="Settings"
+            android:icon="@drawable/ic_action_settings"
+            android:layout_centerVertical="true"></item>
+    </group>
+    <group android:id="@+id/group_us">
+        <item android:id="@+id/nav_about"
+            android:title="About"
+            android:icon="@drawable/ic_action_about"
+            android:layout_centerVertical="true"></item>
+        <item android:id="@+id/nav_share"
+            android:title="Share"
+            android:icon="@drawable/ic_action_share"
+            android:layout_centerVertical="true"></item>
+    </group>
+
+
+</menu>

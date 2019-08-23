@@ -34,7 +34,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="jar:file:/opt/android-studio-ide-181.5056338-linux/android-studio/plugins/android/lib/android.jar!/images/material_design_icons/notification/ic_sd_card_black_24dp.xml" />
+                                                <entry key="url" value="jar:file:/opt/android-studio-ide-181.5056338-linux/android-studio/plugins/android/lib/android.jar!/images/material_design_icons/alert/ic_error_outline_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -44,7 +44,7 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="outputName" value="ic_action_library" />
+                                      <entry key="outputName" value="ic_action_about" />
                                       <entry key="themeColor" value="ffffff" />
                                     </map>
                                   </option>

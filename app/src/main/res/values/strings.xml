@@ -36,4 +36,10 @@
     <string name="string_search">Search</string>
     <string name="string_home">Home</string>
     <string name="string_browse">Browse</string>
+    <string name="tag_fragment_library">Library</string>
+    <string name="tag_fragment_search">Search</string>
+    <string name="tag_fragment_browse">Browse</string>
+    <string name="tag_fragment_about">About</string>
+    <string name="tag_fragment_proifle">profile</string>
+    <string name="tag_fragment_settings">Settings</string>
 </resources>

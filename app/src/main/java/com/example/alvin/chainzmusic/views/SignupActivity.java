@@ -1,4 +1,4 @@
-package com.example.alvin.chainzmusic;
+package com.example.alvin.chainzmusic.views;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -15,6 +15,12 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
+import com.example.alvin.chainzmusic.Constants;
+import com.example.alvin.chainzmusic.R;
+import com.example.alvin.chainzmusic.RequestHandler;
+import com.example.alvin.chainzmusic.ShareprefManager;
+import com.example.alvin.chainzmusic.views.LoginActivity;
+import com.example.alvin.chainzmusic.views.profileActivity;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -36,7 +42,7 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.activity_signup);
         if (ShareprefManager.getInstance(this).isLoggedIn()){
             finish();
-            startActivity(new Intent(this,profileActivity.class));
+            startActivity(new Intent(this, profileActivity.class));
             return;
         }
 
@@ -111,7 +117,7 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
 
             }
        if (v==login){
-            startActivity(new Intent(this,LoginActivity.class));
+            startActivity(new Intent(this, LoginActivity.class));
         }
     }
 }
