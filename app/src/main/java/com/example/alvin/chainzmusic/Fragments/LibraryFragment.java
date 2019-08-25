@@ -15,6 +15,11 @@ import com.example.alvin.chainzmusic.R;
  */
 public class LibraryFragment extends Fragment {
 
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
 
     public LibraryFragment() {
         // Required empty public constructor

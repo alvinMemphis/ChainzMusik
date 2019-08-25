@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <group android:checkableBehavior="single">
+
     <item android:id="@+id/bottom_nav_home"
         android:icon="@drawable/ic_action_home"
-        android:title="@string/string_home"></item>
+        android:title="@string/string_home"
+        ></item>
     <item
         android:id="@+id/bottom_nav_browse"
         android:icon="@drawable/ic_action_browse"
@@ -16,5 +20,5 @@
     <item android:id="@+id/bottom_library"
         android:icon="@drawable/ic_action_library"
         android:title="@string/string_library"></item>
-
+    </group>
 </menu>
